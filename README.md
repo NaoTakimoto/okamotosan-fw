@@ -916,7 +916,7 @@
 
 ## Sample App
 
-Comming Soon...
+別途作成しました　→　[Sample App](https://github.com/Yumapon/Sample_App)
 
 ## Task
 
