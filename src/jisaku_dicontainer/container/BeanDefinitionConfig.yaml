@@ -4,14 +4,14 @@
 #name: createTask #Beanクラスの呼び出し名（定義している変数名を指定）例）String teststr; ならteststrを指定
 #type: usercreatesample.beans.CreateTaskEntity #Beanクラスのパス(src以下のパスを指定)
 ---
-!!jisaku_dicontainer.container.definition_entity.BeanDefinition
-name: createTask
-type: usercreatesample.beans.CreateTaskEntity
+#!!jisaku_dicontainer.container.definition_entity.BeanDefinition
+#name: createTask
+#type: usercreatesample.beans.CreateTaskEntity
 ---
 !!jisaku_dicontainer.container.definition_entity.BeanDefinition
 name: userInfo
-type: usercreatesample.beans.UserInfoEntity
+type: application.beans.UserInfoEntity
 ---
-!!jisaku_dicontainer.container.definition_entity.BeanDefinition
-name: deleteTask
-type: usercreatesample.beans.DeleteTaskEntity
+#!!jisaku_dicontainer.container.definition_entity.BeanDefinition
+#name: deleteTask
+#type: usercreatesample.beans.DeleteTaskEntity

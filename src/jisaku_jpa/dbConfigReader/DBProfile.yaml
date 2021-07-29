@@ -10,11 +10,11 @@
 #schema: #schema名(特段記載なしでもOK)
 
 !!jisaku_jpa.dbConfigReader.DBConfig
-driver: oracle.jdbc.OracleDriver
-url: jdbc:oracle:thin:@localhost:1521/taskappdatabase.localdomain
-user: TASKAPP_ADMIN
-password: password
+driver: com.mysql.cj.jdbc.Driver
+url: jdbc:mysql://localhost:3306/kakeibodb?characterEncoding=UTF-8&serverTimezone=JST
+user: root
+password: Nao510428
 numberOfAccess: 5
-dbName: taskappdatabase.localdomain
-dbType: OracleDB
+dbName: kakeibodb
+dbType: MySQL
 schema:
